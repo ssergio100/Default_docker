@@ -11,6 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', 'HomeController@index');
+
+Route::get('/visao', 'HomeController@index');
+
+Route::get('/contato', 'HomeController@index');
+
+Route::prefix('sobre')->group(function () {
+    Route::get('/missao', 'HomeController@missao');
+    Route::get('/visao', 'HomeController@visao');
+    Route::get('/valores', 'HomeController@valores');
+    Route::get('/idealizador', 'HomeController@idealizador');
+});
+
+Route::prefix('proposito')->group(function () {
+    Route::get('/corporativo', 'HomeController@corporativo');
+    Route::get('/indeividual', 'HomeController@indeividual');
+});
+
+Route::prefix('servicos')->group(function () {
+    Route::get('/coaching', 'HomeController@coaching');
+    Route::get('/treinamento', 'HomeController@treinamento');
+    Route::get('/ministrante', 'HomeController@ministrante');
 });

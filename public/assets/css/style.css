@@ -2891,7 +2891,7 @@ ul {
 .about_part {
   position: relative;
   z-index: 1;
-  padding: 70px 0px 140px;
+  padding: 270px 0px 140px;
   background-image: url(../img/about_overlay.png);
   background-repeat: no-repeat;
   background-position: left;
