@@ -318,9 +318,13 @@ a:focus, .button:focus, button:focus, .btn:focus {
 
 /* line 178, E:/167 Bizcon Business/Bizcon_html/sass/_common.scss */
 ul {
-  list-style: none;
+  /* list-style: none; */
   margin: 0;
-  padding: 0;
+  padding-left: 20px;
+}
+
+li {
+  padding-bottom: 10px;;
 }
 
 /* line 183, E:/167 Bizcon Business/Bizcon_html/sass/_common.scss */
