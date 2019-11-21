@@ -59,7 +59,7 @@ class HomeController extends Controller
 
    public function individual()
    {
-       $titulo = 'DNAHapinness';
+       $titulo = 'DNAHapinness | individual';
        return view('site.home.individual', compact('titulo'));
    } 
 
