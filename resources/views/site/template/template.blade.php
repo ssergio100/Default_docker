@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 col-xl-8">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="{{ URL::asset('assets/img/logo.png') }}" alt="logotipo"> </a>
+                        <a class="navbar-brand" href="{{ URL::asset('/vo')}}"> <img src="{{ URL::asset('assets/img/logo.png') }}" alt="logotipo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Alternar de navegação">
@@ -46,38 +46,38 @@
                                             Sobre a DNA
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="sobre">
-                                            <a class="dropdown-item" href="missao.html">Missão</a>
-                                            <a class="dropdown-item" href="visao.html">Visão</a>
-                                            <a class="dropdown-item" href="valores.html">Valores</a>
-                                            <a class="dropdown-item" href="idealizador.html">Sobre quem idealizou a DNA</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/missao')}}">Missão</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/visao')}}">Visão</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/valores')}}">Valores</a>
+                                        <a class="dropdown-item" href="{{ URL::asset('sobre/idealizador')}}">Sobre quem idealizou a DNA</a>
                                         </div>
                                     </li>
 
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="blog.html" id="proposito" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" id="proposito" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Propósito
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="proposito">
-                                            <a class="dropdown-item" href="corporativo.html">Corporativo</a>
-                                            <a class="dropdown-item" href="individual-blog.html">Individual</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/corporativo')}}">Corporativo</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/individual')}}">Individual</a>
                                         </div>
                                     </li>
                                 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="valores.html">Valores </a>
+                                        <a class="nav-link" href="{{ URL::asset('sobre/valores')}}">Valores </a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="servicos" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" id="{{ URL::asset('sobre/servicos')}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Serviços
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="servicos">
-                                            <a class="dropdown-item" href="coaching.html">Coaching</a>
-                                            <a class="dropdown-item" href="palestras-treimamentos.html">Treinamento</a>
-                                            <a class="dropdown-item" href="palestras-treimamentos.html">Ministrante</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/coaching')}}">Coaching</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/treinamento')}}">Treinamento</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/monistrante')}}">Ministrante</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contato.html">Contato</a>
+                                        <a class="nav-link" href="{{ URL::asset('contato')}}">Contato</a>
                                     </li>
                                 </ul>
                         </div>

@@ -227,6 +227,10 @@ img {
   max-width: 100%;
 }
 
+.navbar-brand img {
+  width: 100% !important;
+}
+
 /* line 129, E:/167 Bizcon Business/Bizcon_html/sass/_common.scss */
 a:focus, .button:focus, button:focus, .btn:focus {
   text-decoration: none;

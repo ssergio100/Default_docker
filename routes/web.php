@@ -10,10 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/template', 'HomeController@template');
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/visao', 'HomeController@index');
+Route::get('/visao', 'HomeController@visao');
 
 Route::get('/contato', 'HomeController@index');
 
@@ -26,7 +27,7 @@ Route::prefix('sobre')->group(function () {
 
 Route::prefix('proposito')->group(function () {
     Route::get('/corporativo', 'HomeController@corporativo');
-    Route::get('/indeividual', 'HomeController@indeividual');
+    Route::get('/individual', 'HomeController@individual');
 });
 
 Route::prefix('servicos')->group(function () {

@@ -1,23 +1,7 @@
 @extends('site.template.template')
 
 @section('content')
-   <!--::breadcrumb part start::-->
-   <section class="breadcrumb breadcrumb_bg" style="margin-top: 80px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="breadcrumb_iner">
-                    <div class="breadcrumb_iner_item">
-                    <h2>{{$menu}}</h2>
-                        <p>{{$menu}} <span>-</span>{{$page}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--::breadcrumb part start::-->
-<!-- ================ idealizador ================= -->
+<!-- ================ visao ================= -->
 <section class="about_part">
     <div class="container">
         <div class="row align-items-center justify-content-end">
@@ -30,7 +14,7 @@
                 <div class="about_text">
                     <h2>
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Ana Costa</font>
+                            <font style="vertical-align: inherit;">Visão</font>
                         </font>
                     </h2>
                     <h4>
@@ -63,7 +47,4 @@
     <div class="hero-app-8 custom-animation2"><img src="img/animate_icon/icon_2.png" alt=""></div>
     <div class="hero-app-6 custom-animation3"><img src="img/animate_icon/icon_3.png" alt=""></div>
 </section>
-<script>
-
-</script>
 @endsection
