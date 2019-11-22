@@ -16,7 +16,7 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/visao', 'HomeController@visao');
 
-Route::get('/contato', 'HomeController@index');
+Route::get('/contato', 'HomeController@contato');
 
 Route::prefix('sobre')->group(function () {
     Route::get('/missao', 'HomeController@missao');
