@@ -14,15 +14,13 @@ Route::get('/template', 'HomeController@template');
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/visao', 'HomeController@visao');
-
 Route::get('/contato', 'HomeController@contato');
 
 Route::prefix('sobre')->group(function () {
-    Route::get('/missao', 'HomeController@missao');
-    Route::get('/visao', 'HomeController@visao');
-    Route::get('/valores', 'HomeController@valores');
     Route::get('/idealizador', 'HomeController@idealizador');
+    Route::get('/conheca', 'HomeController@idealizador');
+    Route::get('/dna', 'HomeController@missao');
+   
 });
 
 Route::prefix('proposito')->group(function () {
@@ -34,4 +32,5 @@ Route::prefix('servicos')->group(function () {
     Route::get('/coaching', 'HomeController@coaching');
     Route::get('/treinamento', 'HomeController@treinamento');
     Route::get('/ministrante', 'HomeController@ministrante');
+    Route::get('/comunicacao-positiva', 'HomeController@ComunicacaoPositiva');
 });

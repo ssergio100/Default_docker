@@ -46,26 +46,13 @@
                                             Sobre a DNA
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="sobre">
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/missao')}}">Missão</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/visao')}}">Visão</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/valores')}}">Valores</a>
-                                        <a class="dropdown-item" href="{{ URL::asset('sobre/idealizador')}}">Sobre quem idealizou a DNA</a>
-                                        </div>
-                                    </li>
-
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="proposito" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Propósito
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="proposito">
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/corporativo')}}">Corporativo</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/individual')}}">Individual</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/missao')}}">Idealizadora da DNA Happiness</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/visao')}}">Conheça a DNA Happiness</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/valores')}}">Nosso DNA</a>
                                         </div>
                                     </li>
                                 
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ URL::asset('sobre/valores')}}">Valores </a>
-                                    </li>
+                            
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="{{ URL::asset('sobre/servicos')}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Serviços
@@ -74,6 +61,7 @@
                                             <a class="dropdown-item" href="{{ URL::asset('sobre/coaching')}}">Coaching</a>
                                             <a class="dropdown-item" href="{{ URL::asset('sobre/treinamento')}}">Treinamento</a>
                                             <a class="dropdown-item" href="{{ URL::asset('sobre/monistrante')}}">Ministrante</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/cominicacao-positiva')}}">Comunicação Positiva</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
