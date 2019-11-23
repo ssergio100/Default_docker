@@ -59,8 +59,8 @@
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="servicos">
                                             <a class="dropdown-item" href="{{ URL::asset('sobre/coaching')}}">Coaching</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/treinamento')}}">Treinamento</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/monistrante')}}">Ministrante</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/treinamento')}}">Treinamentos</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('sobre/monistrante')}}">Ministrante Best Sellers</a>
                                             <a class="dropdown-item" href="{{ URL::asset('sobre/cominicacao-positiva')}}">Comunicação Positiva</a>
                                         </div>
                                     </li>
