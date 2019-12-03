@@ -41,6 +41,9 @@
                         <div class="collapse navbar-collapse main-menu-item justify-content-end"
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="{{ URL::asset('/')}}">Home</a>
+                                    </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="blog.html" id="sobre" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Sobre a DNA

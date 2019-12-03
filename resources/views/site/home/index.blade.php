@@ -12,12 +12,8 @@
                  <div class="col-lg-7 col-xl-6">
                      <div class="banner_text">
                          <div class="banner_text_iner">
-                             <h1>Lead from <br> Front in Business <br> Innovation.</h1>
-                             <p>Male bring land dominion over can yielding his moveth under of depend brought him is.
-                                 Multiply which firmament deep make.</p>
-                             <a href="#" class="btn_1">learn more </a>
-                             <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="popup-youtube video_popup">
-                                 <span><img src="{{ URL::asset('assets/img/icon/play.svg') }}" alt=""></span> Intro Video</a>
+                             <h1>Você em sua melhor versão</h1>
+                             <p>Autoconhecimento e Desenvolvimento Humano capazes de fazer mudanças extraordinárias em sua vida, com ganhos sustentáveis em todos os pilares.</p>                    
                          </div>
                      </div>
                  </div>
@@ -42,14 +38,10 @@
                  </div>
                  <div class="col-md-6 col-lg-6 offset-xl-1 col-xl-6">
                      <div class="about_text">
-                         <h2>We Have 24 Year
-                             Expereince in consulting</h2>
-                         <h4>First Abundantly night you are sea great fifth year</h4>
-                         <p>Lights fly above bearing brought abundantly whose. Without one may i seed void wels great
-                             face god were deep be first. Unto for third be in moveth. Bring land bearing un abundantly
-                             firmament appear whales them years. Lights fly above bearing brought bold abundantly whose
-                             without one may i seed. </p>
-                         <a href="#" class="btn_2">read more</a>
+                         <h2>Coaching Integral Sistêmico</h2>
+                         {{-- <h4></h4> --}}
+                         <p>Você alcançando os resultados que deseja em sua vida pessoal e profissional.</p>
+                         {{-- <a href="#" class="btn_2">read more</a> --}}
                      </div>
                  </div>
              </div>
@@ -66,11 +58,9 @@
              <div class="row">
                  <div class="col-sm-12 col-lg-8 col-xl-4">
                      <div class="single_service_text">
-                         <h2>We Provide Best Services</h2>
-                         <p>Male bring land dominion over can't yielding. His order moveth under of dry brought him is.
-                             Multiply which firmament deep make. Male bring land. Dominion over can't yielding. His
-                             moveth under of dry brought him is. Multiply which firmament deep make.</p>
-                         <a href="#" class="btn_2">Load More</a>
+                         <h2>Nossos Serviços</h2>
+                         <p>A DNA Happiness contribui para o desenvolvimento humano, apoiando pessoas em seu autoconhecimento e transformação positiva para sua melhor versão em todos os seus papeis - pessoais e profissionais. Além disso, apoia a sua empresa a manter e desenvolver os melhores talentos humanos, unido a um ambiente saudável e feliz, conquistando a conexão verdadeira entre as relações através de resultados sustentáveis empresariais e pessoais.</p>
+                         {{-- <a href="#" class="btn_2">Load More</a> --}}
                      </div>
                  </div>
                  <div class="col-sm-6 col-xl-4">
