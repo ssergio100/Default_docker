@@ -55,32 +55,53 @@
      <!-- service_part start-->
      <section class="service_part section_padding gray_bg">
          <div class="container">
-             <div class="row">
-                 <div class="col-sm-12 col-lg-8 col-xl-4">
+             <div class="row" style="padding-bottom: 30px !important;">
+                 <div class="col-sm-12">
                      <div class="single_service_text">
                          <h2>Nossos Serviços</h2>
                          <p>A DNA Happiness contribui para o desenvolvimento humano, apoiando pessoas em seu autoconhecimento e transformação positiva para sua melhor versão em todos os seus papeis - pessoais e profissionais. Além disso, apoia a sua empresa a manter e desenvolver os melhores talentos humanos, unido a um ambiente saudável e feliz, conquistando a conexão verdadeira entre as relações através de resultados sustentáveis empresariais e pessoais.</p>
-                         {{-- <a href="#" class="btn_2">Load More</a> --}}
+                         {{-- <a href="#" class="btn_2">Saiba mais</a> --}}
                      </div>
                  </div>
-                 <div class="col-sm-6 col-xl-4">
+            </div>
+
+            <div class="row" style="padding-bottom: 30px !important;">
+                 <div class="col-sm-6 col-xl-3">
                      <div class="single_service_part">
                          <span class="single_service_icon"><i class="flaticon-growth"></i></span>
-                         <h4>Business Opportunity</h4>
-                         <p>Show wherein form yielding whala readeat gathered wherein moved. Behold may be winged created
-                             that Won't theya are second god give </p>
-                         <a href="#" class="btn_3">Learn More <i class="ti-arrow-right"></i></a>
+                         <h4>Life Coaching</h4>
+                         <p>Através do Life Coaching, você toma a decisão de investir em mudanças extraordinárias em 3 áreas da sua vida, para que tenha ganhos sustentáveis e resultados transformadores.</p>
+                         <a href="#" class="btn_3">Saiba mais <i class="ti-arrow-right"></i></a>
                      </div>
                  </div>
-                 <div class="col-sm-6 col-xl-4">
+                 <div class="col-sm-6 col-xl-3">
                      <div class="single_service_part single_service_part_2">
                          <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                         <h4>Commercial Approach</h4>
-                         <p>Show wherein form yielding whala readeat gathered wherein moved. Behold may be winged created
-                             that Won't theya are second god give </p>
-                         <a href="#" class="btn_3 service_btn">Learn More <i class="ti-arrow-right"></i></a>
+                         <h4>Business Coaching</h4>
+                         <p>Com o Business Coaching, você líder ou profissional terá eficiência, qualidade e engajamento para realização de seus objetivos e metas, alinhado as exigências e inovações do mercado.</p>
+                         <a href="#" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                      </div>
                  </div>
+                 <div class="col-sm-6 col-xl-3" >
+                     <div class="single_service_part single_service_part_2" style="min-height: 531px; !important;">
+                         <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                         <h4>Executive Coaching</h4>
+                         <p>O Executive Coaching, irá capacitá-lo para aplicar ferramentas capazes de atingir os seus objetivos de negócio, com aumento mensurável dos lucros e alta performance da equipe.</p>
+                         <a href="#" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-sm-6 col-xl-3" style="min-height: 531px !important;">
+                     <div class="single_service_part single_service_part_2">
+                         <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                         <h4>Coaching em grupo</h4>
+                         <p></p>
+                         <a href="#" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                     </div>
+                </div>  
+            </div>
+
+            <div class="row" style="padding-bottom: 30px !important;">
+                 
              </div>
          </div>
      </section>
