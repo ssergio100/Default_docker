@@ -66,38 +66,70 @@
             </div>
 
             <div class="row" style="padding-bottom: 30px !important;">
-                 <div class="col-sm-6 col-xl-3">
+                 <div class="col-sm-6 col-xl-4">
                      <div class="single_service_part">
                          <span class="single_service_icon"><i class="flaticon-growth"></i></span>
                          <h4>Life Coaching</h4>
                          <p>Através do Life Coaching, você toma a decisão de investir em mudanças extraordinárias em 3 áreas da sua vida, para que tenha ganhos sustentáveis e resultados transformadores.</p>
-                         <a href="#" class="btn_3">Saiba mais <i class="ti-arrow-right"></i></a>
+                         <a href="serviços/life-coaching" class="btn_3">Saiba mais <i class="ti-arrow-right"></i></a>
                      </div>
                  </div>
-                 <div class="col-sm-6 col-xl-3">
+                 <div class="col-sm-6 col-xl-4">
                      <div class="single_service_part single_service_part_2">
                          <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                          <h4>Business Coaching</h4>
                          <p>Com o Business Coaching, você líder ou profissional terá eficiência, qualidade e engajamento para realização de seus objetivos e metas, alinhado as exigências e inovações do mercado.</p>
-                         <a href="#" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                         <a href="serviços/business-coaching" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                      </div>
                  </div>
-                 <div class="col-sm-6 col-xl-3" >
+                 <div class="col-sm-6 col-xl-4" >
                      <div class="single_service_part single_service_part_2" style="min-height: 531px; !important;">
                          <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                          <h4>Executive Coaching</h4>
                          <p>O Executive Coaching, irá capacitá-lo para aplicar ferramentas capazes de atingir os seus objetivos de negócio, com aumento mensurável dos lucros e alta performance da equipe.</p>
-                         <a href="#" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                         <a href="serviços/execute-coaching" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                      </div>
                  </div>
-                 <div class="col-sm-6 col-xl-3" style="min-height: 531px !important;">
+                 <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
                      <div class="single_service_part single_service_part_2">
                          <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                         <h4>Coaching em grupo</h4>
+                         <h4>Coaching Assessment</h4>
                          <p></p>
-                         <a href="#" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                         <a href="serviços/coaching-assessment" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                      </div>
                 </div>  
+                <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
+                    <div class="single_service_part single_service_part_2">
+                        <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                        <h4>Coaching Vocacional</h4>
+                        <p></p>
+                        <a href="serviços/coaching-vocacional" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                    </div>
+               </div> 
+               <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
+                <div class="single_service_part single_service_part_2">
+                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                    <h4>Coaching de Saúde</h4>
+                    <p></p>
+                    <a href="serviços/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                </div>
+           </div> 
+           <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
+            <div class="single_service_part single_service_part_2">
+                <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                <h4>Coaching em Grupo</h4>
+                <p></p>
+                <a href="serviços/coaching-em-grupo" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+            </div>
+       </div> 
+       <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
+        <div class="single_service_part single_service_part_2">
+            <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+            <h4>Café com coaching</h4>
+            <p></p>
+            <a href="serviços/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+        </div>
+   </div> 
             </div>
 
             <div class="row" style="padding-bottom: 30px !important;">
