@@ -12,7 +12,7 @@
       <div class="row">
           <div class="col-sm-12 col-lg-12 col-xl-12">
               <div class="single_service_text">
-                  <h2>Business Coaching</h2>
+                  <h2><?php echo $service?></h2>
                   <p><strong>Através do Life Coaching, você toma a decisão de investir em mudanças extraordinárias em 3 áreas da sua vida, para que tenha ganhos sustentáveis e resultados transformadores.</strong></p>
                   <br>
 
@@ -23,7 +23,7 @@
                     <br>
                     <p>Apoiado nas ferramentas do Coaching Integral Sistêmico, você agirá com determinação e autorresponsabilidade rumo a sua melhor versão, com ganhos significativos e mensuráveis em sua vida, seu trabalho e em todos os demais pilares
                     </p>
-                  <a href="#" class="btn_2">Entrar em contato</a>
+                  <a href="{{ URL::asset('contato') }}" class="btn_2">Entrar em contato</a>
               </div>
           </div>
       </div>
