@@ -9,8 +9,8 @@ class HomeController extends Controller
    public function index()
    {
        $titulo = 'DNAHapinness';
-      
-       return view('site.home.index', compact('titulo'));
+       $home = true;
+       return view('site.home.index', compact('titulo','home'));
    } 
 
    public function idealizador()

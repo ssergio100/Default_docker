@@ -81,18 +81,18 @@
                 <div class="single_service_part">
                     <span class="single_service_icon"><i class="flaticon-growth"></i></span>
                     <h4>Life Coaching</h4>
-                    <p>Através do Life Coaching, você toma a decisão de investir em mudanças extraordinárias em 3 áreas
+                    <p style="min-height: 270px;">Através do Life Coaching, você toma a decisão de investir em mudanças extraordinárias em 3 áreas
                         da sua vida, para que tenha ganhos sustentáveis e resultados transformadores.</p>
-                    <a href="serviços/life-coaching" class="btn_3">Saiba mais <i class="ti-arrow-right"></i></a>
+                    <a href="{{ URL::asset('servico/life-coaching') }}" class="btn_3">Saiba mais <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-sm-6 col-xl-4">
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Business Coaching</h4>
-                    <p>Com o Business Coaching, você líder ou profissional terá eficiência, qualidade e engajamento para
+                    <p style="min-height: 270px;">Com o Business Coaching, você líder ou profissional terá eficiência, qualidade e engajamento para
                         realização de seus objetivos e metas, alinhado as exigências e inovações do mercado.</p>
-                    <a href="serviços/business-coaching" class="btn_3 service_btn">Saiba mais <i
+                    <a href="servico/business-coaching" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -100,9 +100,9 @@
                 <div class="single_service_part single_service_part_2" style="min-height: 531px; !important;">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Executive Coaching</h4>
-                    <p>O Executive Coaching, irá capacitá-lo para aplicar ferramentas capazes de atingir os seus
+                    <p style="min-height: 270px;">O Executive Coaching, irá capacitá-lo para aplicar ferramentas capazes de atingir os seus
                         objetivos de negócio, com aumento mensurável dos lucros e alta performance da equipe.</p>
-                    <a href="serviços/execute-coaching" class="btn_3 service_btn">Saiba mais <i
+                    <a href="servico/executive-coaching" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -112,8 +112,8 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching Assessment</h4>
-                    <p></p>
-                    <a href="serviços/coaching-assessment" class="btn_3 service_btn">Saiba mais <i
+                    <p style="min-height: 270px;">Quer conhecer o mapeamento e análise do seu perfil comportamental ou de sua equipe com 99% de precisão, conheça seus valores humanos e tudo sobre o seu comportamento, obtendo ganhos em suas relações e resultados.</p>
+                    <a href="servico/coaching-assessment" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -121,8 +121,8 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching Vocacional</h4>
-                    <p></p>
-                    <a href="serviços/coaching-vocacional" class="btn_3 service_btn">Saiba mais <i
+                    <p style="min-height: 270px;">Decifre o seu talento, conheça quais são as suas habilidades, pontos fortes e como você pode fazer a melhor escolha para sua profissão - alinhando o seu propósito, com suas características e o que lhe faz feliz!</p>
+                    <a href="servico/coaching-vocacional" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -130,8 +130,8 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching de Saúde</h4>
-                    <p></p>
-                    <a href="serviços/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i
+                    <p style="min-height: 270px;">Indivíduos comprometidos com sua saúde, qualidade de vida e bem estar naturalmente buscam manter e investir no Coaching de Saúde para alcançar objetivos e metas elevados, como também a promoção de um estilo de vida com hábitos saudáveis a longo prazo e mudanças extraordinárias fisicamente, emocionalmente e espiritualmente.</p>
+                    <a href="servico/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -141,8 +141,8 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching para Atletas</h4>
-                    <p></p>
-                    <a href="serviços/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i
+                    <p style="min-height: 270px;">Quando se fala em alta performance, resultados extraordinários e desempenho com níveis  cada vez melhores e impactantes para atletas - o Coaching para Atletas (Esportivo) é a escolha certa!</p>
+                    <a href="servico/coaching-para-atletas" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -150,8 +150,8 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching em Grupo</h4>
-                    <p></p>
-                    <a href="serviços/coaching-em-grupo" class="btn_3 service_btn">Saiba mais <i
+                    <p style="min-height: 270px;">Indivíduos com interesse em obter ganhos com trocas e experiências coletivas, têm no Coaching em Grupo a melhor opção para alavancar seus objetivos e metas.                    </p>
+                    <a href="servico/coaching-em-grupo" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -159,8 +159,8 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Café com coaching</h4>
-                    <p></p>
-                    <a href="serviços/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i
+                    <p style="min-height: 270px;">Deseja realizar o seu ciclo de coaching com a DNA Happiness, oferecemos as melhores ferramentas do mercado, para que seus sonhos sejam transformados em objetivos e metas, e VOCÊ conquiste realização plena com resultados extraordinários!</p>
+                    <a href="servico/cafe-com-coaching" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
             </div>
@@ -175,7 +175,7 @@
 <!-- upcoming_event part start-->
 
 <!--::review_part start::-->
-<section class="review_part padding_top">
+{{-- <section class="review_part padding_top">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">
@@ -256,7 +256,7 @@
         <div class="hero-app-8 custom-animation"><img src="{{ URL::asset('assets/img/animate_icon/icon_3.png') }}"
                 alt=""></div>
     </div>
-</section>
+</section> --}}
 <!--::blog_part end::-->
 
 <!-- portfolio_part start-->
