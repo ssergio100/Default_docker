@@ -141,7 +141,7 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching para Atletas</h4>
-                    <p style="min-height: 270px;">Quando se fala em alta performance, resultados extraordinários e desempenho com níveis  cada vez melhores e impactantes para atletas - o Coaching para Atletas (Esportivo) é a escolha certa!</p>
+                    <p style="min-height: 210px;">Quando se fala em alta performance, resultados extraordinários e desempenho com níveis  cada vez melhores e impactantes para atletas - o Coaching para Atletas (Esportivo) é a escolha certa!</p>
                     <a href="servico/coaching-para-atletas" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
@@ -150,7 +150,7 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Coaching em Grupo</h4>
-                    <p style="min-height: 270px;">Indivíduos com interesse em obter ganhos com trocas e experiências coletivas, têm no Coaching em Grupo a melhor opção para alavancar seus objetivos e metas.                    </p>
+                    <p style="min-height: 210px;">Indivíduos com interesse em obter ganhos com trocas e experiências coletivas, têm no Coaching em Grupo a melhor opção para alavancar seus objetivos e metas.                    </p>
                     <a href="servico/coaching-em-grupo" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
@@ -159,7 +159,7 @@
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
                     <h4>Café com coaching</h4>
-                    <p style="min-height: 270px;">Deseja realizar o seu ciclo de coaching com a DNA Happiness, oferecemos as melhores ferramentas do mercado, para que seus sonhos sejam transformados em objetivos e metas, e VOCÊ conquiste realização plena com resultados extraordinários!</p>
+                    <p style="min-height: 210px;">Deseja realizar o seu ciclo de coaching com a DNA Happiness, oferecemos as melhores ferramentas do mercado, para que seus sonhos sejam transformados em objetivos e metas, e VOCÊ conquiste realização plena com resultados extraordinários!</p>
                     <a href="servico/cafe-com-coaching" class="btn_3 service_btn">Saiba mais <i
                             class="ti-arrow-right"></i></a>
                 </div>
