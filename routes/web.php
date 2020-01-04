@@ -28,9 +28,15 @@ Route::prefix('proposito')->group(function () {
     Route::get('/individual', 'HomeController@individual');
 });
 
-Route::prefix('servicos')->group(function () {
-    Route::get('/coaching', 'HomeController@coaching');
-    Route::get('/treinamento', 'HomeController@treinamento');
-    Route::get('/ministrante', 'HomeController@ministrante');
-    Route::get('/comunicacao-positiva', 'HomeController@ComunicacaoPositiva');
+Route::prefix('servico')->group(function () {
+    Route::get('/business-coaching', 'ServicoController@businessCoaching');
+    Route::get('/cafe-com-coaching', 'ServicoController@cafeCoaching');
+    Route::get('/coaching-assessment', 'ServicoController@coachingAssessment');
+    Route::get('/coaching-de-saude', 'ServicoController@coachingSaude');
+    Route::get('/coaching-para-atletas', 'ServicoController@coachingAtletas');
+    Route::get('/coaching-vocacional', 'ServicoController@coachingVocacional');
+    Route::get('/coaching-em-grupo', 'ServicoController@coachingGrupo');
+    Route::get('/executive-coaching', 'ServicoController@executiveCoaching');
+    Route::get('/life-coaching', 'ServicoController@lifeCoaching');
+
 });
