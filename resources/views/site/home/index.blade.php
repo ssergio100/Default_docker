@@ -62,114 +62,65 @@
 <!-- service_part start-->
 <section class="service_part section_padding gray_bg">
     <div class="container">
-        <div class="row" style="padding-bottom: 30px !important;">
-            <div class="col-sm-12">
-                <div class="single_service_text">
-                    <h2>Nossos Serviços</h2>
-                    <p>A DNA Happiness contribui para o desenvolvimento humano, apoiando pessoas em seu autoconhecimento
+        <div class="section-top-border">
+            <h3 class="mb-30">Nossos Serviços</h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <blockquote class="generic-blockquote">
+                        A DNA Happiness contribui para o desenvolvimento humano, apoiando pessoas em seu
+                        autoconhecimento
                         e transformação positiva para sua melhor versão em todos os seus papeis - pessoais e
                         profissionais. Além disso, apoia a sua empresa a manter e desenvolver os melhores talentos
                         humanos, unido a um ambiente saudável e feliz, conquistando a conexão verdadeira entre as
-                        relações através de resultados sustentáveis empresariais e pessoais.</p>
-                    {{-- <a href="#" class="btn_2">Saiba mais</a> --}}
+                        relações através de resultados sustentáveis empresariais e pessoais.
+                    </blockquote>
                 </div>
             </div>
         </div>
 
+
         <div class="row" style="padding-bottom: 30px !important;">
-            <div class="col-sm-6 col-xl-4">
+            <div class="col-sm-6 col-xl-6">
                 <div class="single_service_part">
                     <span class="single_service_icon"><i class="flaticon-growth"></i></span>
-                    <h4>Life Coaching</h4>
-                    <p style="min-height: 270px;">Através do Life Coaching, você toma a decisão de investir em mudanças extraordinárias em 3 áreas
-                        da sua vida, para que tenha ganhos sustentáveis e resultados transformadores.</p>
-                    <a href="{{ URL::asset('servico/life-coaching') }}" class="btn_3">Saiba mais <i class="ti-arrow-right"></i></a>
+                    <h4>Coaching</h4>
+                    <p>O Coaching Integral Sistêmico trabalha o lado emocional do
+                         cérebro, através de ferramentas que são capazes de refazer
+                          crenças e limitações emocionais. Contribuindo...</p>
+                    <a href="{{ URL::asset('servicos/coaching') }}" class="btn_3">Saiba mais <i  class="ti-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="col-sm-6 col-xl-4">
+            <div class="col-sm-6 col-xl-6">
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Business Coaching</h4>
-                    <p style="min-height: 270px;">Com o Business Coaching, você líder ou profissional terá eficiência, qualidade e engajamento para
-                        realização de seus objetivos e metas, alinhado as exigências e inovações do mercado.</p>
-                    <a href="servico/business-coaching" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-xl-4">
-                <div class="single_service_part single_service_part_2" style="min-height: 531px; !important;">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Executive Coaching</h4>
-                    <p style="min-height: 270px;">O Executive Coaching, irá capacitá-lo para aplicar ferramentas capazes de atingir os seus
-                        objetivos de negócio, com aumento mensurável dos lucros e alta performance da equipe.</p>
-                    <a href="servico/executive-coaching" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
+                    <h4>Treinamentos</h4>
+                    <p>Palestras e Treinamentos especialmente elaborados para o
+                         autoconhecimento, desenvolvimento humano e despertar.
+                         Para nós da DNA Happiness...
+                    </p>
+                    <a href="{{ URL::asset('servicos/treinamentos') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
         </div>
         <div class="row" style="padding-bottom: 30px !important;">
-            <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
+            <div class="col-sm-6 col-xl-6">
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Coaching Assessment</h4>
-                    <p style="min-height: 270px;">Quer conhecer o mapeamento e análise do seu perfil comportamental ou de sua equipe com 99% de precisão, conheça seus valores humanos e tudo sobre o seu comportamento, obtendo ganhos em suas relações e resultados.</p>
-                    <a href="servico/coaching-assessment" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
+                    <h4>Ministrantes Best Sellers</h4>
+                    <p>texto</p>
+                    <a href="{{ URL::asset('servicos/ministrantes-best-sellers') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
+            <div class="col-sm-6 col-xl-6">
                 <div class="single_service_part single_service_part_2">
                     <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Coaching Vocacional</h4>
-                    <p style="min-height: 270px;">Decifre o seu talento, conheça quais são as suas habilidades, pontos fortes e como você pode fazer a melhor escolha para sua profissão - alinhando o seu propósito, com suas características e o que lhe faz feliz!</p>
-                    <a href="servico/coaching-vocacional" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Coaching de Saúde</h4>
-                    <p style="min-height: 270px;">Indivíduos comprometidos com sua saúde, qualidade de vida e bem estar naturalmente buscam manter e investir no Coaching de Saúde para alcançar objetivos e metas elevados, como também a promoção de um estilo de vida com hábitos saudáveis a longo prazo e mudanças extraordinárias fisicamente, emocionalmente e espiritualmente.</p>
-                    <a href="servico/coaching-de-saude" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
+                    <h4>Comunicação Positiva</h4>
+                    <p>texto</p>
+                    <a href="{{ URL::asset('servicos/comunicacao-positiva') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
         </div>
-        <div class="row" style="padding-bottom: 30px !important;">
-            <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Coaching para Atletas</h4>
-                    <p style="min-height: 210px;">Quando se fala em alta performance, resultados extraordinários e desempenho com níveis  cada vez melhores e impactantes para atletas - o Coaching para Atletas (Esportivo) é a escolha certa!</p>
-                    <a href="servico/coaching-para-atletas" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Coaching em Grupo</h4>
-                    <p style="min-height: 210px;">Indivíduos com interesse em obter ganhos com trocas e experiências coletivas, têm no Coaching em Grupo a melhor opção para alavancar seus objetivos e metas.                    </p>
-                    <a href="servico/coaching-em-grupo" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-sm-6 col-xl-4" style="min-height: 531px !important;">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                    <h4>Café com coaching</h4>
-                    <p style="min-height: 210px;">Deseja realizar o seu ciclo de coaching com a DNA Happiness, oferecemos as melhores ferramentas do mercado, para que seus sonhos sejam transformados em objetivos e metas, e VOCÊ conquiste realização plena com resultados extraordinários!</p>
-                    <a href="servico/cafe-com-coaching" class="btn_3 service_btn">Saiba mais <i
-                            class="ti-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="row" style="padding-bottom: 30px !important;">
-
-        </div>
+    </div>
     </div>
 </section>
 <!-- upcoming_event part start-->
@@ -191,76 +142,75 @@
                 <div class="slider-nav-thumbnails">
                     <div class="slider-thumbnails">
                         <img src="{{ URL::asset('assets/img/client/client_1.png') }}" alt="slideimg" class="image">
-                    </div>
-                    <div class="slider-thumbnails">
-                        <img src="{{ URL::asset('assets/img/client/client_2.png') }}" alt="slideimg" class="image">
-                    </div>
-                    <div class="slider-thumbnails">
-                        <img src="{{ URL::asset('assets/img/client/client_1.png') }}" alt="slideimg" class="image">
-                    </div>
-                    <div class="slider-thumbnails">
-                        <img src="{{ URL::asset('assets/img/client/client_1.png') }}" alt="slideimg" class="image">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-10">
-                <!-- MAIN SLIDES -->
-                <div class="slider">
-                    <div data-index="1">
-                        <div class="client_review_text text-center">
-                            <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
-                            <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
-                                have light night beginning rule darkness seed darkness which land saying moveth.
-                                Fifth shall wont signs, can seasons green days gathered great</p>
-                            <h3>Daniel E Gilcritst</h3>
-                            <h5>Manager, Vision</h5>
-                        </div>
-                    </div>
-                    <div data-index="2">
-                        <div class="client_review_text text-center">
-                            <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
-                            <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
-                                have light night beginning rule darkness seed darkness which land saying moveth.
-                                Fifth shall wont signs, can seasons green days gathered great</p>
-                            <h3>Daniel E Gilcritst</h3>
-                            <h5>Manager, Vision</h5>
-                        </div>
-                    </div>
-                    <div data-index="3">
-                        <div class="client_review_text text-center">
-                            <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
-                            <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
-                                have light night beginning rule darkness seed darkness which land saying moveth.
-                                Fifth shall wont signs, can seasons green days gathered great</p>
-                            <h3>Daniel E Gilcritst</h3>
-                            <h5>Manager, Vision</h5>
-                        </div>
-                    </div>
-                    <div data-index="4">
-                        <div class="client_review_text text-center">
-                            <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
-                            <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
-                                have light night beginning rule darkness seed darkness which land saying moveth.
-                                Fifth shall wont signs, can seasons green days gathered great</p>
-                            <h3>Daniel E Gilcritst</h3>
-                            <h5>Manager, Vision</h5>
-                        </div>
-                    </div>
-                </div>
+</div>
+<div class="slider-thumbnails">
+    <img src="{{ URL::asset('assets/img/client/client_2.png') }}" alt="slideimg" class="image">
+</div>
+<div class="slider-thumbnails">
+    <img src="{{ URL::asset('assets/img/client/client_1.png') }}" alt="slideimg" class="image">
+</div>
+<div class="slider-thumbnails">
+    <img src="{{ URL::asset('assets/img/client/client_1.png') }}" alt="slideimg" class="image">
+</div>
+</div>
+</div>
+<div class="col-lg-10">
+    <!-- MAIN SLIDES -->
+    <div class="slider">
+        <div data-index="1">
+            <div class="client_review_text text-center">
+                <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
+                <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
+                    have light night beginning rule darkness seed darkness which land saying moveth.
+                    Fifth shall wont signs, can seasons green days gathered great</p>
+                <h3>Daniel E Gilcritst</h3>
+                <h5>Manager, Vision</h5>
             </div>
         </div>
-        <div class="hero-app-7 custom-animation4"><img src="{{ URL::asset('assets/img/animate_icon/icon_4.png') }}"
-                alt=""></div>
-        <div class="hero-app-3 custom-animation2"><img src="{{ URL::asset('assets/img/animate_icon/icon_8.png') }}"
-                alt=""></div>
-        <div class="hero-app-8 custom-animation"><img src="{{ URL::asset('assets/img/animate_icon/icon_3.png') }}"
-                alt=""></div>
+        <div data-index="2">
+            <div class="client_review_text text-center">
+                <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
+                <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
+                    have light night beginning rule darkness seed darkness which land saying moveth.
+                    Fifth shall wont signs, can seasons green days gathered great</p>
+                <h3>Daniel E Gilcritst</h3>
+                <h5>Manager, Vision</h5>
+            </div>
+        </div>
+        <div data-index="3">
+            <div class="client_review_text text-center">
+                <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
+                <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
+                    have light night beginning rule darkness seed darkness which land saying moveth.
+                    Fifth shall wont signs, can seasons green days gathered great</p>
+                <h3>Daniel E Gilcritst</h3>
+                <h5>Manager, Vision</h5>
+            </div>
+        </div>
+        <div data-index="4">
+            <div class="client_review_text text-center">
+                <img src="{{ URL::asset('assets/img/icon/quate.svg') }}" class="quate_icon" alt="quate">
+                <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
+                    have light night beginning rule darkness seed darkness which land saying moveth.
+                    Fifth shall wont signs, can seasons green days gathered great</p>
+                <h3>Daniel E Gilcritst</h3>
+                <h5>Manager, Vision</h5>
+            </div>
+        </div>
     </div>
+</div>
+</div>
+<div class="hero-app-7 custom-animation4"><img src="{{ URL::asset('assets/img/animate_icon/icon_4.png') }}" alt="">
+</div>
+<div class="hero-app-3 custom-animation2"><img src="{{ URL::asset('assets/img/animate_icon/icon_8.png') }}" alt="">
+</div>
+<div class="hero-app-8 custom-animation"><img src="{{ URL::asset('assets/img/animate_icon/icon_3.png') }}" alt=""></div>
+</div>
 </section> --}}
 <!--::blog_part end::-->
 
 <!-- portfolio_part start-->
-<section class="portfolio_part section_padding">
+{{-- <section class="portfolio_part section_padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -317,11 +267,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- portfolio_part part end-->
 
 <!-- our_service_part part start-->
-<section class="about_part our_service_part padding_top">
+{{-- <section class="about_part our_service_part padding_top">
     <div class="container">
         <div class="row align-items-center justify-content-end">
             <div class="col-md-6 col-xl-5">
@@ -349,11 +299,11 @@
     </div>
     <div class="hero-app-8 custom-animation3"><img src="{{ URL::asset('assets/img/animate_icon/icon_9.png') }}" alt="">
     </div>
-</section>
+</section> --}}
 <!--::blog_part start::-->
 
 <!--::blog_part start::-->
-<section class="blog_part section_padding">
+{{-- <section class="blog_part section_padding">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">
@@ -434,7 +384,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!--::blog_part end::-->
 
 @endsection

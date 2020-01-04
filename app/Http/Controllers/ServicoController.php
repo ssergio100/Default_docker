@@ -12,107 +12,52 @@ class ServicoController extends Controller
        return view('site.home.index', compact('titulo'));
    } 
 
-   public function businessCoaching() 
+   public function Coaching() 
    { 
 
-        $titulo = 'Business Coaching';
+        $titulo = 'Coaching';
 
         $data['titulo'] =  "DNAHapinness - $titulo";
         $data['controller'] =  'Serviços';
         $data['service'] = $titulo;
 
-        return view('site.servicos.business_coaching', $data);
+        return view('site.servicos.coaching', $data);
    }
 
-   public function cafeCoaching() 
+   public function treinamentos() 
    {
   
-        $titulo = ' Café com coaching';
+        $titulo = 'Treinamentos';
 
         $data['titulo'] =  "DNAHapinness - $titulo";
         $data['controller'] =  'Serviços';
         $data['service'] = $titulo;
 
-    return view('site.servicos.cafe_com_coaching', $data);
+    return view('site.servicos.treinamentos', $data);
    }
    
-   public function coachingAssessment() 
+   public function ministrante_best_sellers() 
    {
-        $titulo = 'Executive Assessment';
+        $titulo = 'Ministrante Best Sellers';
 
         $data['titulo'] =  "DNAHapinness - $titulo";
         $data['controller'] =  'Serviços';
         $data['service'] = $titulo;
 
-    return view('site.servicos.coaching_assessment', $data);
+    return view('site.servicos.ministrantes_best_sellers', $data);
    }
 
-   public function coachingSaude() 
+   public function comunicacao_positiva() 
    {
 
-        $titulo = 'Coaching de Saúde';
+        $titulo = 'Comunicação Positiva';
 
         $data['titulo'] =  "DNAHapinness - $titulo";
         $data['controller'] =  'Serviços';
         $data['service'] = $titulo;
 
     
-    return view('site.servicos.coaching_de_saude', $data);
+    return view('site.servicos.comunicacao_positiva', $data);
    }
 
-   public function coachingAtletas() 
-   {
-        $titulo = 'Executive para Atletas';
-
-        $data['titulo'] =  "DNAHapinness - $titulo";
-        $data['controller'] =  'Serviços';
-        $data['service'] = $titulo;
-
-    return view('site.servicos.coaching_para_atletas', $data);
-   }
-
-   public function coachingVocacional() 
-   {
-
-        $titulo = 'Executive Vocacional';
-
-        $data['titulo'] =  "DNAHapinness - $titulo";
-        $data['controller'] =  'Serviços';
-        $data['service'] = $titulo;
-
-    return view('site.servicos.coaching_vocacional', $data);
-   }
-
-   public function executiveCoaching() 
-   {
-        $titulo = 'Executive Coaching';
-
-        $data['titulo'] =  "DNAHapinness - $titulo";
-        $data['controller'] =  'Serviços';
-        $data['service'] = $titulo;
-
-    return view('site.servicos.executive_coaching', $data);
-   }
-
-   public function lifeCoaching() 
-   {
-        $titulo = 'Life Coaching';
-
-        $data['titulo'] =  "DNAHapinness - $titulo";
-        $data['controller'] =  'Serviços';
-        $data['service'] = $titulo;
-
-    return view('site.servicos.life_coaching', $data);
-   }
-
-   public function coachingGrupo() 
-   {
-        $titulo = 'Coaching em Grupo';
-
-        $data['titulo'] =  "DNAHapinness - $titulo";
-        $data['controller'] =  'Serviços';
-        $data['service'] = $titulo;
-
-    return view('site.servicos.coaching_em_grupo', $data);
-   }
 }

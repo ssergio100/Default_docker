@@ -41,7 +41,7 @@ input:hover, input:focus {
 
 /* line 18, E:/167 Bizcon Business/Bizcon_html/sass/_common.scss */
 .section_padding {
-  padding: 140px 0px;
+  padding: 100px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -963,7 +963,7 @@ li {
 /* line 148, E:/167 Bizcon Business/Bizcon_html/sass/_button.scss */
 .btn_3:after {
   height: 48px;
-  width: 135px;
+  width: 156px;
   background-color: #e3f1da;
   position: absolute;
   content: "";
@@ -1056,7 +1056,7 @@ li {
 
 /* line 10, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_area a {
-  color: #666666 !important;
+  color: #FFF !important;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4782,7 +4782,7 @@ li {
 /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_footer.scss */
 .footer-area {
   background-color: #f7f7f7;
-  padding: 140px 0px 100px;
+  padding: 40px 0px 40px;
 }
 
 @media (max-width: 991px) {
@@ -6236,7 +6236,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1089, E:/167 Bizcon Business/Bizcon_html/sass/_elements.scss */
 .section-top-border {
-  padding: 50px 0;
+  /* padding: 50px 0; */
   border-top: 1px dotted #eee;
 }
 
