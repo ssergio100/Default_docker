@@ -28,15 +28,22 @@ Route::prefix('proposito')->group(function () {
     Route::get('/individual', 'HomeController@individual');
 });
 
-Route::prefix('servico')->group(function () {
-    Route::get('/business-coaching', 'ServicoController@businessCoaching');
-    Route::get('/cafe-com-coaching', 'ServicoController@cafeCoaching');
-    Route::get('/coaching-assessment', 'ServicoController@coachingAssessment');
-    Route::get('/coaching-de-saude', 'ServicoController@coachingSaude');
-    Route::get('/coaching-para-atletas', 'ServicoController@coachingAtletas');
-    Route::get('/coaching-vocacional', 'ServicoController@coachingVocacional');
-    Route::get('/coaching-em-grupo', 'ServicoController@coachingGrupo');
-    Route::get('/executive-coaching', 'ServicoController@executiveCoaching');
-    Route::get('/life-coaching', 'ServicoController@lifeCoaching');
+Route::prefix('coaching')->group(function () {
+    Route::get('business-coaching', 'CoachingController@businessCoaching');
+    Route::get('cafe-com-coaching', 'CoachingController@cafeCoaching');
+    Route::get('coaching-assessment', 'CoachingController@coachingAssessment');
+    Route::get('coaching-de-saude', 'CoachingController@coachingSaude');
+    Route::get('coaching-para-atletas', 'CoachingController@coachingAtletas');
+    Route::get('coaching-vocacional', 'CoachingController@coachingVocacional');
+    Route::get('coaching-em-grupo', 'CoachingController@coachingGrupo');
+    Route::get('executive-coaching', 'CoachingController@executiveCoaching');
+    Route::get('life-coaching', 'CoachingController@lifeCoaching');
 
+});
+
+Route::prefix('servicos')->group(function () {
+    Route::get('/coaching', 'ServicoController@coaching');
+    Route::get('/treinamentos', 'ServicoController@treinamentos');
+    Route::get('/ministrantes-best-sellers', 'ServicoController@ministrante_best_sellers');
+    Route::get('/comunicacao-positiva', 'ServicoController@comunicacao_positiva');
 });

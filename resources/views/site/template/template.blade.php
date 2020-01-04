@@ -14,7 +14,9 @@
     <!-- owl carousel CSS -->
     <link rel="stylesheet" href="{{ URL::asset('assets/css/owl.carousel.min.css') }}">
     <!-- themify CSS -->
-    {{-- <link rel="stylesheet" href="{{ URL::asset('assets/css//themify-icons.css') }}"> --}}
+    <link rel="stylesheet" href="{{ URL::asset('assets/css/themify-icons.css') }}">
+    <!-- fontawesome  CSS -->
+    <link rel="stylesheet" href="{{ URL::asset('/assets/css/fontawesom/css/all.css') }}">
     <!-- flaticon CSS -->
     <link rel="stylesheet" href="{{ URL::asset('assets/css/flaticon.css') }}">
     <!-- font awesome CSS -->
@@ -63,10 +65,10 @@
                                             Serviços
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="servicos">
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/coaching')}}">Coaching</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/treinamento')}}">Treinamentos</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/monistrante')}}">Ministrante Best Sellers</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/cominicacao-positiva')}}">Comunicação Positiva</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('servicos/coaching')}}">Coaching</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('servicos/treinamentos')}}">Treinamentos</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('servicos/ministrantes-best-sellers')}}">Ministrante Best Sellers</a>
+                                            <a class="dropdown-item" href="{{ URL::asset('servicos/comunicacao-positiva')}}">Comunicação Positiva</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
@@ -87,7 +89,7 @@
     <section class="footer-area section_padding">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
+                {{-- <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Top Products</h4>
                     <ul>
                         <li><a href="#">Managed Website</a></li>
@@ -122,20 +124,20 @@
                         <li><a href="#">Experts</a></li>
                         <li><a href="#">Agencies</a></li>
                     </ul>
-                </div>
-                <div class="col-xl-4 col-sm-8 col-md-8 mb-4 mb-xl-0 single-footer-widget">
+                </div> --}}
+                <div class="single-footer-widget">
                     <h4>Newsletter</h4>
-                    <p>You can trust us. we only send promo offers,</p>
+                    <p>Você pode confiar em nós. Enviaremos somente promoções e novidades.</p>
                     <div class="form-wrap" id="mc_embed_signup">
                         <form target="_blank"
-                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                            action="#"
                             method="get" class="form-inline">
                             <input class="form-control" name="EMAIL" placeholder="Your Email Address"
-                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu endereço de e-mail '"
                                 required="" type="email">
                             <button class="click-btn btn btn-default text-uppercase btn_2">subscribe</button>
                             <div style="position: absolute; left: -5000px;">
-                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                <input name="" tabindex="-1" value="" type="text">
                             </div>
 
                             <div class="info"></div>
@@ -159,10 +161,11 @@
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
                 <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                    <a href="#"><i class="ti-facebook"></i></a>
-                    <a href="#"> <i class="ti-twitter"></i> </a>
-                    <a href="#"><i class="ti-instagram"></i></a>
-                    <a href="#"><i class="ti-skype"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+     
                 </div>
             </div>
         </div>

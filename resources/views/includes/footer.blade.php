@@ -8,7 +8,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 <a href="#"><i class="ti-facebook"></i></a>
                 <a href="#"> <i class="ti-twitter"></i> </a>
                 <a href="#"><i class="ti-instagram"></i></a>
-                <a href="#"><i class="ti-skype"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
