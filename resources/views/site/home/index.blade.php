@@ -81,7 +81,7 @@
 
         <div class="row" style="padding-bottom: 30px !important;">
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part" style="border-radius: 20px;">
+                <div class="single_service_part card-back-verde" style="border-radius: 20px;" >
                     <span class="single_service_icon"><i class="fas fa-external-link-alt fa-2x" style="color:#fff"></i></span>
                     <h4>Coaching</h4>
                     <p>O Coaching Integral Sistêmico trabalha o lado emocional do
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part single_service_part_2" style="border-radius: 20px;">
+                <div class="single_service_part single_service_part_2 card-back-laranja" style="border-radius: 20px;">
                     <span class="single_service_icon style_icon"><i class="fas fa-users fa-2x" style="color:#fff"></i></span>
                     <h4>Comunicação Positiva</h4>
                     <p>texto</p>

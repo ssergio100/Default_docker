@@ -964,7 +964,7 @@ li {
 .btn_3:after {
   height: 48px;
   width: 156px;
-  background-color: #e3f1da;
+  background-color: #89c74661;
   position: absolute;
   content: "";
   top: 0px;
@@ -981,6 +981,9 @@ li {
   margin-left: 11px;
 }
 
+ a:hover .btn_3{
+  color: green !important;
+}
 /*=================== custom button rule start ====================*/
 /* line 168, E:/167 Bizcon Business/Bizcon_html/sass/_button.scss */
 .button {
@@ -6274,18 +6277,32 @@ h1, h2, h3, h4, h5, h6 {
 
 /* card fundo amarelo */
 .card-back-amarelo {
-  background-color: #fffda3 !important;
+  background-color: #ffda0045 !important;
 }
 /* card fundo azul */
 .card-back-azul {
-  background-color: #86c1eb !important;
+  background-color: #58a4e05e !important;
 }
 /* card fundo laranja */
 .card-back-laranja {
-  ackground-color: #f2956a52;
+ background-color: #e4bda199 !important;
 }
 /* card fundo verde */
 .card-back-verde {
-  background-color: #56ba6629;
+  background-color: #56ba6629 !important;
 }
+.card-back-verde h4{
+  color:rgb(2, 83, 2) !important;
+}
+.card-back-amarelo h4{
+  color:rgb(197, 173, 26) !important;
+}
+.card-back-azul h4{
+  color:#4d70bb !important;
+}
+.card-back-laranja h4{
+  color:#ce9c0e !important;
+}
+
+
 /*# sourceMappingURL=style.css.map */
