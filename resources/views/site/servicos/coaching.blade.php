@@ -20,9 +20,22 @@
                      emocionais. Contribuindo ainda com mudanças significativas em todas as
                       áreas da vida, de forma integral e sistêmica.</p> 
                     <br>
-                    <p>“Define-se Integral, porque neste método utilizam-se os dois hemisférios
+                    <p><strong>“Define-se Integral, porque neste método utilizam-se os dois hemisférios
                      cerebrais: o esquerdo responsável pela parte cognitiva e racional; e
-                      o direito, pelas emoções, crenças e intuição.” Febracis</p>
+                      o direito, pelas emoções, crenças e intuição.”</strong><small> Febracis</small></p>
+                      <br>
+                      <br>
+                    <p><strong>Você gostaria de alcançar uma performance extraordinária em sua vida?</strong></p>
+                    <br>
+                    <p><strong>Você quer conhecer mais sobre o ciclo de coaching?</strong></p>
+                    <br>
+                    <p><strong>Você deseja ter autorresponsabilidade com a sua vida?</strong></p>
+                    <br>
+
+<p>O Coaching Integral Sistêmico propõe a realização de um ciclo de 1 sessões com a programação detalhada com resultados na prática, onde o Coach através de perguntas leva o coachee a um processo de autoconhecimento e ampliação da consciência, para que ele encontre as respostas e caminhos para tomadas de ação conscientes em sua vida.</p>
+<br>
+<p>Através do ciclo de coaching, o coachee (cliente) identifica o seu ESTADO ATUAL, define o ESTADO DESEJADO, reduz impedimentos e potencializa suas competências, e a partir de uma clareza maior do “olhar pra dentro” + “olhar pra fora”, desenha seus OBJETIVOS E METAS no PLANO DE AÇÃO focado para um RESULTADO SUSTENTÁVEL E ABUNDANTE em todas as áreas da vida (Espiritual, Parentes, Conjugal, Filhos, Social, Saúde, Servir, Intelectual, Financeiro, Profissional e Emocional).</p>
+
 
                         <a href="{{ URL::asset('contato') }}" class="btn_2">Entrar em contato</a>
                         
@@ -30,6 +43,16 @@
             </div>
             <div class="col-md-4">
                 @include('site.template.menuCoaching')
+                <aside class="single_sidebar_widget newsletter_widget">
+                     <h4 class="widget_title">Newsletter</h4>
+                     <p> <small> Você pode confiar em nós. Enviaremos somente promoções e novidades</small></p>
+                     <form action="#">
+                        <div class="form-group">
+                           <input type="email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'" placeholder="Enter email" required="">
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_4" type="submit">Subscribe</button>
+                     </form>
+                  </aside>
             </div>
         </div>
     </div>

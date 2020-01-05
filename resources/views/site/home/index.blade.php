@@ -81,18 +81,18 @@
 
         <div class="row" style="padding-bottom: 30px !important;">
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part">
-                    <span class="single_service_icon"><i class="flaticon-growth"></i></span>
+                <div class="single_service_part" style="border-radius: 20px;">
+                    <span class="single_service_icon"><i class="fas fa-external-link-alt fa-2x" style="color:#fff"></i></span>
                     <h4>Coaching</h4>
                     <p>O Coaching Integral Sistêmico trabalha o lado emocional do
                          cérebro, através de ferramentas que são capazes de refazer
-                          crenças e limitações emocionais. Contribuindo...</p>
+                          crenças e limitações emocionais...</p>
                     <a href="{{ URL::asset('servicos/coaching') }}" class="btn_3">Saiba mais <i  class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                <div class="single_service_part single_service_part_amarelo card-back-amarelo" style="border-radius: 20px;">
+                    <span class="single_service_icon style_icon"><i class="fas fa-brain fa-2x" style="color:#fff"></i></span>
                     <h4>Treinamentos</h4>
                     <p>Palestras e Treinamentos especialmente elaborados para o
                          autoconhecimento, desenvolvimento humano e despertar.
@@ -104,16 +104,16 @@
         </div>
         <div class="row" style="padding-bottom: 30px !important;">
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                <div class="single_service_part single_service_part_azul card-back-azul" style="border-radius: 20px;">
+                    <span class="single_service_icon style_icon"><i class="fas fa-paste fa-2x" style="color:#fff"></i></span>
                     <h4>Ministrantes Best Sellers</h4>
                     <p>texto</p>
                     <a href="{{ URL::asset('servicos/ministrantes-best-sellers') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part single_service_part_2">
-                    <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
+                <div class="single_service_part single_service_part_2" style="border-radius: 20px;">
+                    <span class="single_service_icon style_icon"><i class="fas fa-users fa-2x" style="color:#fff"></i></span>
                     <h4>Comunicação Positiva</h4>
                     <p>texto</p>
                     <a href="{{ URL::asset('servicos/comunicacao-positiva') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>

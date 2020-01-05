@@ -27,7 +27,7 @@ class ServicoController extends Controller
    public function treinamentos() 
    {
   
-        $titulo = 'Treinamentos';
+        $titulo = 'Palestras e Treinamentos';
 
         $data['titulo'] =  "DNAHapinness - $titulo";
         $data['controller'] =  'Serviços';
