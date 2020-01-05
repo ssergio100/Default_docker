@@ -6,25 +6,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{$titulo}}</title>
-    <link rel="icon" href="{{ URL::asset('assets/img/favicon.png') }}">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
     <!-- animate CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css')}}">
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
     <!-- themify CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/themify-icons.css') }}">
-    <!-- fontawesome  CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('/assets/css/fontawesom/css/all.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css')}}">
     <!-- flaticon CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css')}}">
     <!-- font awesome CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesom/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css')}}">
     <!-- swiper CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/slick.css')}}">
     <!-- style CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
 </head>
 
 <body>
@@ -125,25 +123,7 @@
                         <li><a href="#">Agencies</a></li>
                     </ul>
                 </div> --}}
-                <div class="single-footer-widget">
-                    <h4>Newsletter</h4>
-                    <p>Você pode confiar em nós. Enviaremos somente promoções e novidades.</p>
-                    <div class="form-wrap" id="mc_embed_signup">
-                        <form target="_blank"
-                            action="#"
-                            method="get" class="form-inline">
-                            <input class="form-control" name="EMAIL" placeholder="Your Email Address"
-                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu endereço de e-mail '"
-                                required="" type="email">
-                            <button class="click-btn btn btn-default text-uppercase btn_2">subscribe</button>
-                            <div style="position: absolute; left: -5000px;">
-                                <input name="" tabindex="-1" value="" type="text">
-                            </div>
-
-                            <div class="info"></div>
-                        </form>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </section>
@@ -175,6 +155,7 @@
     <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="{{ URL::asset('assets/js/jquery-1.12.1.min.js') }} "></script>
+    <script src="{{ URL::asset('assets/js/jquery.nice-select.min.js') }} "></script>
     <!-- popper js -->
     <script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
     <!-- bootstrap js -->

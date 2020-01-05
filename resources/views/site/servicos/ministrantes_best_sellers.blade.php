@@ -7,7 +7,7 @@
 
 @include('site.template.breadcrumb')
 
-<section class="blog_area section_padding">
+<section class="section_padding">
   <div class="container">
       <div class="row">
           <div class="col-lg-7 mb-5 mb-lg-0">
@@ -35,8 +35,7 @@
 							</ul>
 						</div>
 		
-
-    
+            @include('site.template.newsLatter')
           </div>
          
          <!-- <ul>

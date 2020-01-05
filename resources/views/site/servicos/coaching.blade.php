@@ -7,7 +7,7 @@
 
 @include('site.template.breadcrumb')
 
-<section class="blog_area section_padding">
+<section class="section_padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mb-5 mb-lg-0">
@@ -43,20 +43,17 @@
             </div>
             <div class="col-md-4">
                 @include('site.template.menuCoaching')
-                <aside class="single_sidebar_widget newsletter_widget">
-                     <h4 class="widget_title">Newsletter</h4>
-                     <p> <small> Você pode confiar em nós. Enviaremos somente promoções e novidades</small></p>
-                     <form action="#">
-                        <div class="form-group">
-                           <input type="email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'" placeholder="Enter email" required="">
-                        </div>
-                        <button class="button rounded-0 primary-bg text-white w-100 btn_4" type="submit">Subscribe</button>
-                     </form>
-                  </aside>
+                @include('site.template.newsLatter')
+               
             </div>
         </div>
     </div>
 </section>
 
+<script>
+    $(document).ready(function(){
+        $('select').niceSelect();    
+    })
+</script>
 <!-- ================ section end ================= -->
 @endsection

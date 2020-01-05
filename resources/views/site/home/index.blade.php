@@ -81,13 +81,15 @@
 
         <div class="row" style="padding-bottom: 30px !important;">
             <div class="col-sm-6 col-xl-6">
-                <div class="single_service_part card-back-verde" style="border-radius: 20px;" >
+                <div class="single_service_part card-back-verde " style="border-radius: 20px;" >
                     <span class="single_service_icon"><i class="fas fa-external-link-alt fa-2x" style="color:#fff"></i></span>
                     <h4>Coaching</h4>
                     <p>O Coaching Integral Sistêmico trabalha o lado emocional do
                          cérebro, através de ferramentas que são capazes de refazer
                           crenças e limitações emocionais...</p>
-                    <a href="{{ URL::asset('servicos/coaching') }}" class="btn_3">Saiba mais <i  class="ti-arrow-right"></i></a>
+                          
+                          <a href="#" class="genric-btn circle generic-btn-verde">Saiba mais</a>
+                    {{-- <a href="{{ URL::asset('servicos/coaching') }}" class="btn_3">Saiba mais <i  class="ti-arrow-right"></i></a> --}}
                 </div>
             </div>
             <div class="col-sm-6 col-xl-6">
@@ -98,7 +100,8 @@
                          autoconhecimento, desenvolvimento humano e despertar.
                          Para nós da DNA Happiness...
                     </p>
-                    <a href="{{ URL::asset('servicos/treinamentos') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                    <a href="#" class="genric-btn circle generic-btn-amarelo">Saiba mais</a>
+                    {{-- <a href="{{ URL::asset('servicos/treinamentos') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a> --}}
                 </div>
             </div>
         </div>
@@ -108,7 +111,8 @@
                     <span class="single_service_icon style_icon"><i class="fas fa-paste fa-2x" style="color:#fff"></i></span>
                     <h4>Ministrantes Best Sellers</h4>
                     <p>texto</p>
-                    <a href="{{ URL::asset('servicos/ministrantes-best-sellers') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                    <a href="#" class="genric-btn circle generic-btn-azul">Saiba mais</a>
+                    {{-- <a href="{{ URL::asset('servicos/ministrantes-best-sellers') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a> --}}
                 </div>
             </div>
             <div class="col-sm-6 col-xl-6">
@@ -116,7 +120,8 @@
                     <span class="single_service_icon style_icon"><i class="fas fa-users fa-2x" style="color:#fff"></i></span>
                     <h4>Comunicação Positiva</h4>
                     <p>texto</p>
-                    <a href="{{ URL::asset('servicos/comunicacao-positiva') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a>
+                    <a href="#" class="genric-btn circle generic-btn-laranja">Saiba mais</a>
+                    {{-- <a href="{{ URL::asset('servicos/comunicacao-positiva') }}" class="btn_3 service_btn">Saiba mais <i class="ti-arrow-right"></i></a> --}}
                 </div>
             </div>
         </div>

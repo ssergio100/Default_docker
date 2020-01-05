@@ -7,7 +7,8 @@
 
 @include('site.template.breadcrumb')
 
-<section class="blog_area section_padding">
+<section class="section_padding"> 
+ 
   <div class="container">
       <div class="row">
           <div class="col-lg-7 mb-5 mb-lg-0">
@@ -31,10 +32,12 @@
 								<li>Eu sou a minha cura</li>
 								<li>Como ser um profissional extraordinário</li>
 							</ul>
-						</div>
+            </div>
+            @include('site.template.newsLatter')
       </div>
   </div>
-</section>
+</div>
 
+</section>
 <!-- ================ section end ================= -->
 @endsection
