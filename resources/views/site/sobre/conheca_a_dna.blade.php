@@ -2,20 +2,7 @@
 
 @section('content')
    <!--::breadcrumb part start::-->
-   <section class="breadcrumb breadcrumb_bg" style="margin-top: 80px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="breadcrumb_iner">
-                    <div class="breadcrumb_iner_item">
-                    <h2>{{$menu}}</h2>
-                        <p>{{$menu}} <span>-</span>{{$page}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+   @include('site.template.breadcrumb')
 <!--::breadcrumb part start::-->
 <!-- ================ idealizador ================= -->
 <section class="about_part">
