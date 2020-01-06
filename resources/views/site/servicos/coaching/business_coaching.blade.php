@@ -49,10 +49,6 @@
                   <p><strong>Com o Business Coaching, você líder ou profissional terá eficiência, qualidade e engajamento para realização de seus objetivos e metas, alinhado as exigências e inovações do mercado.</strong></p>
                   <br> 
                   <p> Através de ferramentas voltadas para o pilar profissional, você terá mais resultados e alta performance em seus desafios no trabalho.</p>
-                   <br> 
-                    <p>Individual: contempla ciclo de 20h, com 2 horas semanais.</p>
-                    <br>
-                    <p>Grupos: contempla ciclo de 20h em grupo, divididos em 2 horas semanais, com 2 encontros individuais no período de realização.</p>
                     <br>
                     <p>Até quando você irá manter-se no degrau da zona de conforto?</p>
                     <br>
@@ -66,21 +62,21 @@
               <div class="project_details_widget">
                   <div class="single_project_details_widget">
                       <span class="ti-time"></span>
-                      <h5>Carga horária</h5>
-                      <p>20 horas</p>
+                      <h5>Carga Horária</h5>
+                      <p>20 horas de investimento!</p>
                       <h6>Quanto tempo você precisa para ser a sua melhor versão?</h6>
                   </div>
                   <div class="single_project_details_widget">
                       <span class="ti-check-box"></span>
-                      <h5>Início</h5>
-                      <p>Agora!</p>
-                      <h6>Até quando você irá adiar sua alta performance no trabalho?</h6>
+                      <h5>Investimento</h5>
+                      <p>Ganhos profissionais sustentáveis</p>
+                      <h6>Qual é o preço do seu reconhecimento profissional?</h6>
                   </div>
                   <div class="single_project_details_widget">
                       <span class="ti-location-pin"></span>
-                      <h5>Local</h5>
-                      <p>Excritório</p>
-                      <p>Recebemos você em ambiente discreto e confortável.</p>
+                      <h5>Início</h5>
+                      <p>Agora!</p>
+                      <h6>Até quando você irá adiar sua alta performance no trabalho?</h6>
                   </div>
               </div>
           </div>

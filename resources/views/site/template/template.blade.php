@@ -51,9 +51,9 @@
                                             Sobre a DNA
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="sobre">
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/missao')}}">Idealizadora da DNA Happiness</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/visao')}}">Conheça a DNA Happiness</a>
-                                            <a class="dropdown-item" href="{{ URL::asset('sobre/valores')}}">Nosso DNA</a>
+                                            <a class="dropdown-item" href="{{ asset('sobre/idealizadora')}}">Idealizadora da DNA Happiness</a>
+                                            <a class="dropdown-item" href="{{ asset('sobre/conheca')}}">Conheça a DNA Happiness</a>
+                                            <a class="dropdown-item" href="{{ asset('sobre/nosso-dna')}}">Nosso DNA</a>
                                         </div>
                                     </li>
                                 

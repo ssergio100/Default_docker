@@ -80,8 +80,8 @@
                     <div class="single_project_details_widget">
                         <span class="ti-location-pin"></span>
                         <h5>Local</h5>
-                        <p>Excritório</p>
-                        <p>Recebemos você em ambiente discreto e confortável.</p>
+                        <p>Salas de Coaching</p>
+                        <h6>Recebemos você em ambiente agradável e exclusivo para sessões extraordinárias.</h6>
                     </div>
                 </div>
                 

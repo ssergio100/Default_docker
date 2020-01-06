@@ -20,9 +20,9 @@ Route::get('/', 'HomeController@index');
 Route::get('/contato', 'HomeController@contato');
 
 Route::prefix('sobre')->group(function () {
-    Route::get('/idealizador', 'HomeController@idealizador');
-    Route::get('/conheca', 'HomeController@idealizador');
-    Route::get('/dna', 'HomeController@missao');
+    Route::get('/idealizadora', 'SobreController@idealizadora');
+    Route::get('/conheca', 'SobreController@conheca');
+    Route::get('/nosso-dna', 'SobreController@nossoDna');
    
 });
 
