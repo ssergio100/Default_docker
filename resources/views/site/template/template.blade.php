@@ -155,7 +155,7 @@
     <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="{{ URL::asset('assets/js/jquery-1.12.1.min.js') }} "></script>
-    <script src="{{ URL::asset('assets/js/jquery.nice-select.min.js') }} "></script>
+    <!-- <script src="{{ URL::asset('assets/js/jquery.nice-select.min.js') }} "></script> -->
     <!-- popper js -->
     <script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
     <!-- bootstrap js -->
@@ -172,6 +172,7 @@
     <script src="{{ URL::asset('assets/js/slick.min.js') }}"></script>
     <!-- custom js -->
     <script src="{{ URL::asset('assets/js/custom.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/global.js') }}"></script>
 
 </body>
 

@@ -50,10 +50,5 @@
     </div>
 </section>
 
-<script>
-    $(document).ready(function(){
-        $('select').niceSelect();    
-    })
-</script>
 <!-- ================ section end ================= -->
 @endsection

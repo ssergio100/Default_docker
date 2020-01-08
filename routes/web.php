@@ -51,11 +51,11 @@ Route::prefix('servicos')->group(function () {
     Route::get('/comunicacao-positiva', 'ServicoController@comunicacao_positiva');
 });
 
-Route::get('/mail', function(){
+Route::post('/mail', function(){
     Mail::send('mail.treinaweb',['curso'=>'Laravel'], function($m){
         $m->from('ana@dnahappiness.com','Ana');
         $m->to('sergio.moreira@callflex.net.br');
     });
 });
 
-Route::get('/newsletter/{mail}', 'ContatoController@newsletter');
+Route::post('/newsletter', 'ContatoController@newsletter');
