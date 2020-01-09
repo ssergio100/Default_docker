@@ -58,4 +58,8 @@ Route::post('/mail', function(){
     });
 });
 
-Route::post('/newsletter', 'ContatoController@newsletter');
+Route::prefix('contato')->group(function () {
+    Route::post('/newsletter', 'ContatoController@newsletter');
+});
+
+

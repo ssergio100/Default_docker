@@ -9,7 +9,7 @@
 </head>
 <body>
     <p>Olá!</p>
-    <p>Alguém está interessado em receber as novidades da DNAHppiness!</p>
+    <p>Alguém está interessado em receber as novidades da DNAHappiness!</p>
     <p>Email:<strong>{{$email}}</strong></p>
     <p>Tenha um bom dia!</p>
 </body>
