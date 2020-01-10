@@ -50,3 +50,16 @@ Route::prefix('servicos')->group(function () {
     Route::get('/ministrantes-best-sellers', 'ServicoController@ministrante_best_sellers');
     Route::get('/comunicacao-positiva', 'ServicoController@comunicacao_positiva');
 });
+
+Route::post('/mail', function(){
+    Mail::send('mail.treinaweb',['curso'=>'Laravel'], function($m){
+        $m->from('ana@dnahappiness.com','Ana');
+        $m->to('sergio.moreira@callflex.net.br');
+    });
+});
+
+Route::prefix('contato')->group(function () {
+    Route::post('/newsletter', 'ContatoController@newsletter');
+});
+
+

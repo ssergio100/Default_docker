@@ -31,7 +31,7 @@
     });
   }
   if (document.getElementById('default-select')) {
-		$('select').niceSelect();
+	//	$('select').niceSelect();
 	}
   $('.popup-youtube, .popup-vimeo').magnificPopup({
     // disableOn: 700,

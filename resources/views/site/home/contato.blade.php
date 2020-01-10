@@ -15,25 +15,77 @@
             <div class="row">
               <div class="col-12">
                 <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Assunto'>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
                   
                     <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sua mensagem'" placeholder = 'Enter Message'></textarea>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder = 'Seu nome'>
+                  <input class="form-control" name="nome" id="nome" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome'" placeholder = 'Nome'>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder = 'Seu e-mail'>
+                  <input class="form-control" name="sobrenome" id="sobrenome" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sobrenome'" placeholder = 'Sobrenome'>
                 </div>
               </div>
-              <div class="col-12">
+              <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Assunto'>
+                  <input class="form-control" name="email" id="email" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu e-mail'" placeholder = 'Seu e-mail'>
                 </div>
               </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tel. Celular'" placeholder = 'Tel. Celular'>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tel. Comercial'" placeholder = 'Tel. Comercial'>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <div class="nice-select" id="default-select">
+                    <select style="display: none;">
+                    <optgroup>Coaching </optgroup>
+                      <option value="">Life Coaching</option>
+                      <option value="">Business Coaching</option>
+                      <option value="">Executive Coaching</option>
+                      <option value="">Coaching Vocacional</option>
+                      <option value="">Coaching de Saúde</option>
+                      <option value="">Coaching em Grupo</option>
+                      <option value="">Coaching para Atletas</option>
+                      <option value="">Coaching Assessment</option>
+                      <option value="">Café com coaching</option>
+                   
+                      <optgroup>Treinamentos  </optgroup>
+                          <option value="">Treinamentos</option>
+                    
+                      <optgroup>Ministrantes Best Sellers
+                        <option value="">Ministrantes Best Sellers</option>
+                      </optgroup>
+                      <optgroup>Comunicação Positiva
+                        <option value="">Consultoria Empresarial</option>
+                        <option value="">Facilitadora de Treinamento</option>
+                        <option value="">Endomarketing e Comunicação Interna</option>
+                        <option value="">Felicidade Interna Bruta - FIB</option>
+                      </optgroup>
+                    </select>
+                  
+                    </div>
+                </div>
+
+
+               
+
+              </div>
+         
             </div>
             <div class="form-group mt-3">
               <button type="submit" class="button button-contactForm btn_4">Enviar Mensagem</button>
