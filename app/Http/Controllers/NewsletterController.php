@@ -21,14 +21,14 @@ class NewsletterController extends Controller
         if( !filter_var($email, FILTER_VALIDATE_EMAIL) ) {
             return response()->json([
                 'success' => false,
-                'message' => utf8_encode('Desculpe, mas o e-mail digitado parece inv�lido :(')
+                'message' => utf8_encode('Desculpe, mas o e-mail digitado parece inválido :(')
              ]);
         }
 
         if($news->where('email', $email)->count() > 0 ) {
             return response()->json([
                 'success' => false,
-                'message' => utf8_encode('Este e-mail j� esta cadastrado!')
+                'message' => utf8_encode('Este e-mail já está cadastrado!')
              ]);
         }
        
