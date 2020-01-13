@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css')}}">
     <!-- swiper CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/slick.css')}}">
-    <link rel="stylesheet" href="{{ URL::asset('assets/sweetalert2/dist/sweetalert2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/sweetalert2/dist/sweetalert2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/global.css') }}">
 
 
     <!-- style CSS -->
@@ -158,7 +159,7 @@
     <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="{{ URL::asset('assets/js/jquery-1.12.1.min.js') }} "></script>
-    <!-- <script src="{{ URL::asset('assets/js/jquery.nice-select.min.js') }} "></script> -->
+    <script src="{{ URL::asset('assets/js/jquery.nice-select.min.js') }} "></script>
     <!-- popper js -->
     <script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
     <!-- bootstrap js -->

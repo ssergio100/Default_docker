@@ -51,9 +51,10 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <div class="nice-select" id="default-select">
-                    <select style="display: none;">
-                    <optgroup>Coaching </optgroup>
+                
+                    <select>
+                  
+                    <optgroup label="Coaching"  data-i="1"> 
                       <option value="">Life Coaching</option>
                       <option value="">Business Coaching</option>
                       <option value="">Executive Coaching</option>
@@ -63,22 +64,22 @@
                       <option value="">Coaching para Atletas</option>
                       <option value="">Coaching Assessment</option>
                       <option value="">Café com coaching</option>
-                   
-                      <optgroup>Treinamentos  </optgroup>
+                      </optgroup>
+                      <optgroup label="Treinamentos" data-i="2">  
                           <option value="">Treinamentos</option>
+                          </optgroup>
                     
-                      <optgroup>Ministrantes Best Sellers
+                      <optgroup label="Ministrantes Best Sellers" data-i="3">
                         <option value="">Ministrantes Best Sellers</option>
                       </optgroup>
-                      <optgroup>Comunicação Positiva
+                      <optgroup label="Comunicação Positiva" data-i="4">Comunicação Positiva
                         <option value="">Consultoria Empresarial</option>
                         <option value="">Facilitadora de Treinamento</option>
                         <option value="">Endomarketing e Comunicação Interna</option>
                         <option value="">Felicidade Interna Bruta - FIB</option>
                       </optgroup>
-                    </select>
-                  
-                    </div>
+                     
+</select>
                 </div>
 
 
