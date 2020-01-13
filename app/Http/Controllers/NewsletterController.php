@@ -38,13 +38,13 @@ class NewsletterController extends Controller
 
 
         Mail::send('mail.newsletter',['email'=>$email], function($m){
-            $m->subject(utf8_encode('Inscri��o Newsletter'));
+            $m->subject(utf8_encode('Inscrição Newsletter'));
             $m->from('newsletter@dnahappiness.com','Ana');
             $m->to('sergio.moreira@callflex.net.br');
          });
 
         Mail::send('mail.newsletter_cliente',['token'=>$news->key], function($m){
-            $m->subject(utf8_encode('Inscri��o Newsletter'));
+            $m->subject(utf8_encode('Inscrição Newsletter'));
             $m->from('naoresponda@dnahappiness.com','Newsletter');
             $m->to($_POST['email']);
          });
@@ -52,7 +52,7 @@ class NewsletterController extends Controller
        
          return response()->json([
             'success' => true,
-            'message' => utf8_encode('Pronto! Agora � s� aguardar as novidades :)')
+            'message' => utf8_encode('Pronto! Agora é só aguardar as novidades :)')
         ]);
     }
 
