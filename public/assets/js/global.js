@@ -1,7 +1,8 @@
 $(document).ready(function() {
     $('select').niceSelect();
   });
-  
+
+// newsletter
 function newsletter(el) { 
     let btn = $(el).clone()
     let input = $('input[name="email"]')
@@ -17,7 +18,7 @@ function newsletter(el) {
         data: data,
         dataType: "json",
         beforeSend: function () {
-            $('.btn-newsletter').text('Aguarde...').addClass('disable')
+           
         },
         success: function (response) {
             btn.appendTo('#form-newsletter')
@@ -34,6 +35,51 @@ function newsletter(el) {
     });
 }
 
+// contato
+function contato(el) { 
+    let btn = $(el).clone()
+    $(el).remove()
+
+    $('.div-btn-contato').append('<span id="temp">Aguarde...</span>')
+
+    let data = $('#form-contato').serialize()
+
+    $.ajax({
+        type: "post",
+        url: "/contato",
+        data: data,
+        dataType: "json",
+        beforeSend: function () {
+          
+        },
+        success: function (response) {
+            btn.appendTo('.div-btn-contato')
+            $('#temp').remove()
+
+            if (!response.success) {
+  
+                if(response.target) {
+                    var targets = response.target
+                    var arr_targets = targets.split(",");
+
+                    $.each(arr_targets, function (index, value) { 
+                        $('input[name="'+value+'"]').focus();
+                        console.log('input[name="'+value+'"]')
+                    });
+                }
+
+                message(response.message, 'Ops!')
+                return
+            }
+
+           
+            message(response.message, null, 'success')
+            input.val('')
+        }
+    });
+}
+
+
 function message(text, title = 'Sucesso!', icon = 'error') {
     Swal.fire({
         icon: icon,
@@ -41,3 +87,5 @@ function message(text, title = 'Sucesso!', icon = 'error') {
         text: text,
     })
 }
+
+
