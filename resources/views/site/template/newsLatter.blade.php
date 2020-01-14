@@ -6,6 +6,6 @@
        <div class="form-group">
           <input type="email" name="email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'" placeholder="Enter email" required="">
        </div>
-       <button href="#" class="genric-btn primary-border btn-block" onclick="newsletter(this)">Subscribe</a>
+       <button class="genric-btn primary-border btn-block" onclick="newsletter(this)">Subscribe</a>
     </form>
  </aside>

@@ -17,8 +17,6 @@ Route::get('/template', 'HomeController@template');
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/contato', 'HomeController@contato');
-
 Route::prefix('sobre')->group(function () {
     Route::get('/idealizadora', 'SobreController@idealizadora');
     Route::get('/conheca', 'SobreController@conheca');
@@ -55,4 +53,8 @@ Route::prefix('servicos')->group(function () {
 
 Route::post('/newsletter', 'NewsletterController@add');
 Route::get('/newsletter/{token}', 'NewsletterController@remove');
+
+Route::get('/contato', 'HomeController@contato');
+Route::post('/contato', 'ContatoController@add');
+
                           
