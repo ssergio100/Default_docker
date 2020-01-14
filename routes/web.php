@@ -17,8 +17,6 @@ Route::get('/template', 'HomeController@template');
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/contato', 'HomeController@contato');
-
 Route::prefix('sobre')->group(function () {
     Route::get('/idealizadora', 'SobreController@idealizadora');
     Route::get('/conheca', 'SobreController@conheca');
@@ -51,11 +49,12 @@ Route::prefix('servicos')->group(function () {
     Route::get('/comunicacao-positiva', 'ServicoController@comunicacao_positiva');
 });
 
-Route::post('/mail', function(){
-    Mail::send('mail.treinaweb',['curso'=>'Laravel'], function($m){
-        $m->from('ana@dnahappiness.com','Ana');
-        $m->to('sergio.moreira@callflex.net.br');
-    });
-});
 
-Route::post('/newsletter', 'ContatoController@newsletter');
+
+Route::post('/newsletter', 'NewsletterController@add');
+Route::get('/newsletter/{token}', 'NewsletterController@remove');
+
+Route::get('/contato', 'HomeController@contato');
+Route::post('/contato', 'ContatoController@add');
+
+                          

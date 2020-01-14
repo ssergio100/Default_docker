@@ -9,8 +9,8 @@
 </head>
 <body>
     <p>Olá!</p>
-    <p>Alguém está interessado em receber as novidades da DNAHappiness!</p>
-    <p>Email:<strong>{{$email}}</strong></p>
+    <p>Você está recebendo este e-mail porquê se cadastrou para receber as novidades da DNAHappiness!</p>
+    <p>Caso não tenha sido você, clique <a href="{{ URL::asset('newsletter') }}<?php echo '/'.$token;?>" <?php echo $token; ?>>aqui</a> para cancelar o cadastro.</p>
     <p>Tenha um bom dia!</p>
 </body>
 </html>
