@@ -121,8 +121,8 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><a href="https://api.whatsapp.com/send?phone=55{{$whatsapp}}&text=ol%C3%A1"><i class="fab fa-whatsapp"></i></a></span>
             <div class="media-body">
-              <h3>Whatsapp</h3>
-              <p>{{$whatsapp}}</p>
+              <h3>{{$whatsapp}}</h3>
+              <p>Também estamos no Whatsapp ;)</p>
             </div>
           </div>
         </div>
