@@ -42,7 +42,9 @@ class HomeController extends Controller
    public function contato()
    {
        $titulo = 'DNAHapinness';
-       return view('site.home.contato', compact('titulo'));
+       $whatsapp = env('WHATSAPP');
+       $responsavel_contato = env('RESPONSAVEL_CONTATO');
+       return view('site.home.contato', compact('titulo','whatsapp','responsavel_contato'));
    } 
 
    public function coaching()

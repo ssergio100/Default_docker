@@ -112,10 +112,17 @@
             </div>
           </div> --}}
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-email"></i></span>
+            <span class="contact-info__icon"><a href="mailto:{{$responsavel_contato}}"><i class="ti-email"></i></a></span>
             <div class="media-body">
-              <h3>ana@dnahappiness.com</h3>
+              <h3>{{$responsavel_contato}}</h3>
               <p>Envie um email a qualquer hora!</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><a href="https://api.whatsapp.com/send?phone=55{{$whatsapp}}&text=ol%C3%A1"><i class="fab fa-whatsapp"></i></a></span>
+            <div class="media-body">
+              <h3>Whatsapp</h3>
+              <p>{{$whatsapp}}</p>
             </div>
           </div>
         </div>
