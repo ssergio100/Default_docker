@@ -42,18 +42,18 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="celular" id="celular" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tel. Celular'" placeholder = 'Tel. Celular'>
+                  <input class="form-control telefone" name="celular" id="celular" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tel. Celular'" placeholder = 'Tel. Celular'>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="telefone" id="telefone" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tel. Comercial'" placeholder = 'Tel. Comercial'>
+                  <input class="form-control telefone" name="telefone" id="telefone" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tel. Comercial'" placeholder = 'Tel. Comercial'>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                    <select class="wide" name="produto" required>
-                      <option value="">selecione</option>
+                    <select class="wide" id="produto" name="produto" required>
+                      <option value=''>selecione</option>
                       <option value="Coaching"><strong>Coaching</strong></option>
                       <option value="Life Coaching">--Life Coaching</option>
                       <option value="Business Coaching">--Business Coaching</option>
@@ -78,10 +78,22 @@
                 </div>
 
               </div>
+              <div class="col-sm-6">
+                <div class="form-group mt-3">
+                <div class="g-recaptcha" data-callback="imNotARobot" data-sitekey="6LeksM8UAAAAAG-VyxtSJz-fbv5SZ8oV1ZAxbyId"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group mt-3 div-btn-contato">
+                <button class="genric-btn primary-border btn-block btn-envia-mensagem" style="display:none" onclick="contato(this)">Enviar Mensagem</a>
+                </div>
+              </div>
+
             </div>
-            <div class="form-group mt-3 div-btn-contato">
+            <!-- <div class="form-group mt-3 div-btn-contato">
             <button class="genric-btn primary-border btn-block" onclick="contato(this)">Enviar Mensagem</a>
-            </div>
+            </div> -->
+           
           </form>
         </div>
         <div class="col-lg-4">

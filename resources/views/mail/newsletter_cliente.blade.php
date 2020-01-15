@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <p>Olá!</p>
     <p>Você está recebendo este e-mail porquê se cadastrou para receber as novidades da DNAHappiness!</p>

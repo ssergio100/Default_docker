@@ -44,8 +44,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: your_mysql_root_password
+      MYSQL_DATABASE: dna
+      MYSQL_ROOT_PASSWORD: root
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
@@ -60,8 +60,8 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - MYSQL_USER=root
-      - MYSQL_PASSWORD=your_mysql_root_password
-      - MYSQL_ROOT_PASSWORD=your_mysql_root_password
+      - MYSQL_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
       - PMA_HOST=db
     ports:
       - "8080:80"

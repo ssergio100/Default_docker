@@ -27,7 +27,7 @@ class NewsletterController extends Controller
         if ($news->whereRaw("email = ? and ativo = 1", $email)->count() > 0) {
             return response()->json([
                 'success' => false,
-                'message' => 'Este e-mail já está cadastrado!'
+                'message' => 'Este e-mail já esta cadastrado!'
             ]);
         }
 
@@ -37,21 +37,14 @@ class NewsletterController extends Controller
 
         // Envia email para o responsável
         Mail::send('mail.newsletter', ['email' => $email], function ($m) {
-            $m->subject(utf8_encode('Inscrição Newsletter'));
+            $m->subject('Incrição Newsletter');
             $m->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
-            $m->to('sergio.moreira@callflex.net.br');
+            $m->to(env('MAIL_FROM_ADDRESS'));
         });
-
-        if (Mail::sent == 'error') {
-            return response()->json([
-                'success' => false,
-                'message' => 'Ocorreu um erro ao tentar te cadastrar :('
-            ]);
-        }
 
         // Envia email para o cliente
         Mail::send('mail.newsletter_cliente', ['token' => $token], function ($m) {
-            $m->subject(utf8_encode('Inscrição Newsletter'));
+            $m->subject('Incrição Newsletter');
             $m->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
             $m->to($_POST['email']);
         });

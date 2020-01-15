@@ -177,8 +177,13 @@
     <!-- custom js -->
     <script src="{{ URL::asset('assets/js/custom.js') }}"></script>
     <script src="{{ URL::asset('assets/sweetalert2/dist/sweetalert2.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/jquery.maskedinput.min.js') }}"></script>
+
+    
 
     <script src="{{ URL::asset('assets/js/global.js') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>   
+
 
 </body>
 
